@@ -5,3 +5,6 @@
 
 2. [TipCalculator](./simple/TipCalculator)
 ![TipCalculator](./src/pics/2%20-%20TipCalculator.jpg)
+
+3. [RandomQuoteGenerator](./simple/RandomQuoteGenerator)
+![RandomQuoteGenerator](./src/pics/3%20-%20RandomQuoteGenerator.jpg)
