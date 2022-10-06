@@ -17,14 +17,6 @@
     
     <div class="container">
         <div class="todo-area" id="todoArea">
-            <div class="card">
-                <button class="radio">
-                    <iconify-icon icon="dashicons:yes-alt"></iconify-icon>
-                </button>
-                <div class="task">
-                    Review JavaScript
-                </div>
-            </div>
         </div>
 
         <div class="done-area" id="doneArea">
@@ -33,7 +25,18 @@
             </h3>
         </div>
 
-        <button id="addTask">
+        <div class="modal not-display" id="addTaskModal">
+            <div class="card" id="addTaskCard">
+                <button class="radio">
+                </button>
+                <input type="text" id="newTask" class="task">
+            </div>
+            <button id="addTaskConfirmBtn" class="addBtn">
+                Confirm
+            </button>
+        </div>
+
+        <button id="addTask" class="addBtn">
             <iconify-icon icon="carbon:add"></iconify-icon>
             Add a Task
         </button>
