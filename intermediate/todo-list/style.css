@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: skyblue;
+}
+
+/* heading style */
+.heading {
+    color: white;
+}
+
+.heading > h1 {
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.heading > h2 {
+    margin: 0;
+}
+
+.container {
+    margin-top: 24px;
+}
+
+.card {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+.radio {
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    outline: none;
+    border: grey black 0.5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: transparent;
+}
+
+.checked {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.task {
+    font-size: 24px;
+    font-weight: bold;
+    transition: all ease-in-out;
+}
+
+.done-area > h3 {
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(108, 122, 137, 0.35);
+    width: 25%;
+    padding: 8px 4px;
+    text-align: center;
+}
+
+#addTask {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: 32px;
+    font-size: 24px;
+    text-align: center;
+    width: 96%;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    color: white;
+    padding: 10px 12px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    background-color: rgba(108, 122, 137, 0.7);
+}

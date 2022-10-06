@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Day</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+</head>
+<body>
+    <div class="heading">
+        <h1>My Day</h1>
+        <h2 class="date" id="date"></h2>
+    </div>
+    
+    <div class="container">
+        <div class="todo-area" id="todoArea">
+            <div class="card">
+                <button class="radio">
+                    <iconify-icon icon="dashicons:yes-alt"></iconify-icon>
+                </button>
+                <div class="task">
+                    Review JavaScript
+                </div>
+            </div>
+        </div>
+
+        <div class="done-area" id="doneArea">
+            <h3>
+                Completed
+            </h3>
+        </div>
+
+        <button id="addTask">
+            <iconify-icon icon="carbon:add"></iconify-icon>
+            Add a Task
+        </button>
+    </div>
+</body>
+</html>
