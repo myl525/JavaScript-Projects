@@ -8,3 +8,7 @@
 
 3. [RandomQuoteGenerator](./simple/RandomQuoteGenerator)
 ![RandomQuoteGenerator](./src/pics/3%20-%20RandomQuoteGenerator.jpg)
+
+## intermediate
+1. [TodoList](./intermediate/todo-list)
+![TodoList](./src/pics/1%20-%20todoList.jpg)
